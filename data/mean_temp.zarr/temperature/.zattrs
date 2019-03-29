@@ -1,0 +1,8 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "y",
+        "x"
+    ],
+    "crs": "+init=epsg:32618",
+    "units": "Farenheit"
+}

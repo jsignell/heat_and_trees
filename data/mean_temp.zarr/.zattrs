@@ -1,0 +1,4 @@
+{
+    "crs": "+init=epsg:32618",
+    "units": "Farenheit"
+}
