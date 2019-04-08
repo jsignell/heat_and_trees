@@ -19,7 +19,7 @@ Recreating the work in this blog post: http://urbanspatialanalysis.com/urban-hea
 ## To run locally
 
 ```bash
-conda env create -f environment.yml
+conda env create -f environment.yaml
 conda activate trees
 jupyter notebook
 ```
@@ -32,4 +32,3 @@ practices for Python-using earth scientists. I work on visualization tools withi
 PyViz ecosystem and data ingestion and analysis tools in the broader PyData world. I
 live in Philadelphia and previously did hydrology research at Princeton - studying
 lightning and rain patterns, water movement through the landscape, and streamflow.
-

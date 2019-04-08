@@ -1,0 +1,23 @@
+name: trees
+channels:
+  - pyviz
+  - conda-forge
+dependencies:
+  - cartopy
+  - geopandas
+  - intake
+  - intake-xarray
+  - numpy
+  - pandas
+  - rasterio
+  - tqdm
+  - xarray
+  - pyviz::colorcet
+  - pyviz::bokeh
+  - pyviz::geoviews
+  - pyviz::holoviews
+  - pyviz::hvplot
+  - pyviz::datashader
+  - pyviz::panel
+  - pip:
+    - rio-toa

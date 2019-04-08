@@ -12,10 +12,6 @@ sources:
       product_id:
         description: landsat file id
         type: str
-#     cache:
-#       - argkey: urlpath
-#         regex: 'gcp-public-data-landsat'
-#         type: file
     args:
       urlpath: 
         - https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/{{ '%03d' % path }}/{{ '%03d' % row }}/{{ product_id }}/{{ product_id }}_B2.TIF
