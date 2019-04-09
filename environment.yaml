@@ -4,6 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - cartopy
+  - fastparquet
   - geopandas
   - intake
   - intake-xarray
@@ -12,12 +13,13 @@ dependencies:
   - rasterio
   - tqdm
   - xarray
-  - pyviz::colorcet
-  - pyviz::bokeh
-  - pyviz::geoviews
-  - pyviz::holoviews
-  - pyviz::hvplot
-  - pyviz::datashader
-  - pyviz::panel
+  - pyyaml <5.1  # no yaml warning
+  - bokeh==1.1.0
+  - pyviz::colorcet==2.0.1
+  - pyviz::datashader==0.7.0
+  - pyviz::geoviews==1.6.2
+  - pyviz::holoviews==1.12.0
+  - pyviz::hvplot==0.4.0
+  - pyviz::panel==0.5.0
   - pip:
     - rio-toa
