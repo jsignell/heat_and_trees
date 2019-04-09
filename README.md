@@ -21,7 +21,7 @@ Recreating the work in this blog post: http://urbanspatialanalysis.com/urban-hea
 ### Run locally
 
 ```bash
-conda env create --file environment.yaml
+conda env create --file environment.yml
 conda activate trees
 jupyter notebook
 ```
