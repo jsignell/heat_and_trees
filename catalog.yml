@@ -14,8 +14,6 @@ sources:
         type: str
     args:
       urlpath:
-        - https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/{{ '%03d' % path }}/{{ '%03d' % row }}/{{ product_id }}/{{ product_id }}_B2.TIF
-        - https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/{{ '%03d' % path }}/{{ '%03d' % row }}/{{ product_id }}/{{ product_id }}_B3.TIF
         - https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/{{ '%03d' % path }}/{{ '%03d' % row }}/{{ product_id }}/{{ product_id }}_B4.TIF
         - https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/{{ '%03d' % path }}/{{ '%03d' % row }}/{{ product_id }}/{{ product_id }}_B5.TIF
         - https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/{{ '%03d' % path }}/{{ '%03d' % row }}/{{ product_id }}/{{ product_id }}_B10.TIF
