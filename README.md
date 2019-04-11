@@ -32,6 +32,7 @@ jupyter notebook
 ### Relevant materials
 
 Recording: https://youtu.be/-XMXNmGRk5c
+
 Static version: https://jsignell.github.io/heat_and_trees
 
 ### About me
