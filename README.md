@@ -29,6 +29,11 @@ conda activate trees
 jupyter notebook
 ```
 
+### Relevant materials
+
+Recording: https://youtu.be/-XMXNmGRk5c
+Static version: https://jsignell.github.io/heat_and_trees
+
 ### About me
 
 I am a software developer at Anaconda Inc. currently working on developing best
