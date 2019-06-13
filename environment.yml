@@ -5,7 +5,7 @@ channels:
 dependencies:
   - cartopy
   - fastparquet
-  - geopandas
+  - geopandas ==0.4.1
   - intake
   - intake-xarray
   - numpy
