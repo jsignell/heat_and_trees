@@ -1,25 +1,25 @@
 name: trees
 channels:
-  - pyviz
   - conda-forge
 dependencies:
-  - cartopy
-  - fastparquet
-  - geopandas ==0.4.1
-  - intake
-  - intake-xarray
-  - numpy
-  - pandas
-  - rasterio
-  - tqdm
-  - xarray
-  - pyyaml <5.1  # no yaml warning
-  - bokeh==1.1.0
-  - pyviz::colorcet==2.0.1
-  - pyviz::datashader==0.7.0
-  - pyviz::geoviews==1.6.2
-  - pyviz::holoviews==1.12.0
-  - pyviz::hvplot==0.4.0
-  - pyviz::panel==0.5.0
+  - bokeh = 1.3.4
+  - cartopy = 0.17.0
+  - colorcet = 2.0.1
+  - datashader = 0.8.0
+  - fastparquet = 0.3.2
+  - geopandas = 0.6.1
+  - geoviews = 1.6.5
+  - holoviews = 1.12.6
+  - hvplot = 0.5.2
+  - intake = 0.5.3
+  - intake-xarray = 0.3.1
+  - numpy = 1.17.3
+  - pandas = 0.25.2
+  - panel = 0.6.4
+  - pip = 19.3.1
+  - python = 3.7.3
+  - rasterio = 1.1.0
+  - tqdm = 4.36.1
+  - xarray = 0.14.0
   - pip:
-    - rio-toa
+    - rio-toa = 0.3.0
