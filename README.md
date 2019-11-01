@@ -1,4 +1,4 @@
-## Visualizing and Analyzing Earth Science Data Using PyViz and PyData
+## Visualizing and Analyzing Earth Science Data Using HoloViz and PyData
 
 Earth Science presents interesting issues of large, multi-dimensional datasets stored in
 a variety of idiosyncratic file formats. In this talk, we'll work through some specific
@@ -19,7 +19,7 @@ We'll also be adding interactivity and deploying the resulting application.
 
 ### Run on binder
 
-<a href=https://mybinder.org/v2/gh/jsignell/pydata_ann_arbor_2019/master ><img src=https://mybinder.org/badge_logo.svg width=300/></a>
+<a href=https://mybinder.org/v2/gh/jsignell/heat_and_trees/master ><img src=https://mybinder.org/badge_logo.svg width=300/></a>
 
 ### Run locally
 
@@ -39,6 +39,7 @@ Static version: https://jsignell.github.io/heat_and_trees
 
 I am a software developer at Anaconda Inc. currently working on developing best
 practices for Python-using earth scientists. I work on visualization tools within the
-PyViz ecosystem and data ingestion and analysis tools in the broader PyData world. I
-live in Philadelphia and previously did hydrology research at Princeton - studying
-lightning and rain patterns, water movement through the landscape, and streamflow.
+[HoloViz ecosystem](https://holoviz.org) and data ingestion and analysis tools in the 
+broader PyData world. I live in Philadelphia and previously did hydrology research at 
+Princeton - studying lightning and rain patterns, water movement through the landscape, 
+and streamflow.
